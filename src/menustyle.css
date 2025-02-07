@@ -1,0 +1,120 @@
+/* กำหนดฟอนต์พื้นฐาน */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* สไตล์สำหรับลิงก์ */
+a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 5px 10px;
+    /* ลบ transition ออก */
+}
+
+/* สไตล์สำหรับหัวข้อ */
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+/* สไตล์สำหรับหัวข้อ h1 */
+h1.top {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+/* สไตล์สำหรับรูปภาพ */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* สไตล์สำหรับข้อความ */
+p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* สไตล์สำหรับลิสต์ (ul และ ol) */
+ul, ol {
+    margin: 20px auto;
+    padding-left: 40px;
+    max-width: 800px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+/* สไตล์สำหรับตาราง */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* สไตล์สำหรับฟอร์ม */
+form {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"], form input[type="reset"] {
+    width: 48%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 4%;
+}
+
+form input[type="submit"]:hover, form input[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+/* สไตล์สำหรับลิงก์กลับ */
+a[href='../index.html'] {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+    color: #007bff;
+}
